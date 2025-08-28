@@ -1,0 +1,11 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:#071021;color:#e8f0ff}
+header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:linear-gradient(90deg,#071021,#0f1b33);border-bottom:1px solid #18283f}
+h1{font-size:18px;margin:0;color:#cfe3ff}
+.hud{display:flex;gap:12px;color:#bcd6ff;font-weight:600}
+.wrap{max-width:980px;margin:0 auto;padding-bottom:18px}
+#game{display:block;width:100%;height:auto;margin-top:12px;border-radius:12px;border:1px solid #16263f;background:#051026;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+.panel{padding:12px 16px;color:#cfe3ff}
+.toast{position:absolute;left:50%;top:70px;transform:translateX(-50%);background:rgba(9,14,30,.92);border:1px solid #273a66;color:#dfe8ff;padding:10px 12px;border-radius:10px;max-width:680px}
+.endOverlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;background:rgba(0,0,0,.6);backdrop-filter:blur(2px);font-size:20px;padding:20px;text-align:center}
+.badge{display:inline-block;padding:2px 8px;margin-right:6px;border-radius:999px;background:#243a66;color:#cfe3ff;border:1px solid #2a3c74;font-size:12px}

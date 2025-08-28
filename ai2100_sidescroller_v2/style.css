@@ -1,0 +1,5 @@
+body{margin:0;font-family:sans-serif;background:#0b1020;color:#e8ecff}
+header{display:flex;justify-content:space-between;padding:12px;background:#151b33}
+.hud{display:flex;gap:12px}
+#game{display:block;width:100%;height:auto;border:1px solid #1e2a4a;background:#0a0f1f}
+.toast{position:absolute;left:50%;top:70px;transform:translateX(-50%);background:rgba(9,14,30,.9);padding:10px;border-radius:12px;color:#fff;max-width:600px}

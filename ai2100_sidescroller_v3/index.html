@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>AI Engineer — Timeline Side-Scroller (No Deaths)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>AI Engineer: 1950 → 2100</h1>
+      <div class="hud">
+        <span id="year">Year: 1950</span>
+        <span id="score">Score: 0</span>
+        <span id="honor">Honor: 50</span>
+        <span id="risk">Risk: 0</span>
+        <span id="speed">Speed: 1x</span>
+      </div>
+    </header>
+    <canvas id="game" width="960" height="540"></canvas>
+    <div class="panel">
+      <p><strong>Role:</strong> You are an AI engineer. Your actions shift public trust (Honor) vs unregulated risk (Risk). At the end, the balance decides the ending.</p>
+      <p><strong>Controls:</strong> A/D or ◀/▶ move, Space jump, Shift dash, M mute, P presentation captions, R restart.</p>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
